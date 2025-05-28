@@ -1,0 +1,19 @@
+nohup: ignoring input
+/workspace/test/backend/app.py:14: MovedIn20Warning: The ``declarative_base()`` function is now available as sqlalchemy.orm.declarative_base(). (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  Base = declarative_base()
+Starting server on port 44883
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:44883
+ * Running on http://172.17.0.4:44883
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+/workspace/test/backend/app.py:14: MovedIn20Warning: The ``declarative_base()`` function is now available as sqlalchemy.orm.declarative_base(). (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  Base = declarative_base()
+Starting server on port 44883
+ * Debugger is active!
+ * Debugger PIN: 100-240-624
+127.0.0.1 - - [28/May/2025 09:47:58] "[35m[1mPOST /api/todos HTTP/1.1[0m" 201 -
+127.0.0.1 - - [28/May/2025 09:48:04] "GET /api/todos HTTP/1.1" 200 -
