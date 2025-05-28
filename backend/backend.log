@@ -17,3 +17,10 @@ Starting server on port 44883
  * Debugger PIN: 100-240-624
 127.0.0.1 - - [28/May/2025 09:47:58] "[35m[1mPOST /api/todos HTTP/1.1[0m" 201 -
 127.0.0.1 - - [28/May/2025 09:48:04] "GET /api/todos HTTP/1.1" 200 -
+ * Detected change in '/workspace/test/backend/app.py', reloading
+ * Restarting with stat
+/workspace/test/backend/app.py:14: MovedIn20Warning: The ``declarative_base()`` function is now available as sqlalchemy.orm.declarative_base(). (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+  Base = declarative_base()
+Starting server on port 5000
+ * Debugger is active!
+ * Debugger PIN: 100-240-624

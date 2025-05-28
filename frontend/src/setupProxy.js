@@ -4,7 +4,7 @@ module.exports = function(app) {
   app.use(
     '/api',
     createProxyMiddleware({
-      target: 'http://localhost:44883', // Using the specified port
+      target: 'http://backend:5000', // Point to the backend service in Docker Compose
       changeOrigin: true,
     })
   );

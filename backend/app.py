@@ -58,7 +58,8 @@ def delete_todo(todo_id):
     return '', 204
 
 if __name__ == '__main__':
-    # Use the specified port
-    port = 44883
+    import os
+    # Use the specified port or default to 5000
+    port = int(os.environ.get('PORT', 5000))
     print(f"Starting server on port {port}")
     app.run(host='0.0.0.0', port=port, debug=True)
